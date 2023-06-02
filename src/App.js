@@ -1,20 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './compnents/Header';
+import Main from './compnents/Main';
+import Nav from './compnents/Nav';
+import Reservation from './compnents/Reservation';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <>
-      <header className="App-header">
-        
-      </header>
-      <nav>
-
-      </nav>
-      <main>
-
-      </main>
-      <footer>
-        
-      </footer>
+      <Nav/>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/reservation' element={<Reservation/>}/>
+      </Routes>
     </>
   );
 }

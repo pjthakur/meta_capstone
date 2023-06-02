@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+nav ul{
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    width: 70vw;
+    justify-content: space-around;
+    
+}
+nav li{
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    text-align: center;
+
+    
+}
+nav a{
+    text-decoration: none;
+
+    display: block;
+    height: 60px;
+    max-width: 90px;
+    width: 100%;
+    text-align: center;
+    transition: .5s;
+    color: black;
+    
+}
+nav a:hover{
+    color: #F4CE14;
+}
+header{
+    background-color: #495E57;
+    display: flex;
+    height: 306px;
+    width: 100vw;
+    flex-grow: 1;
+}
+header section{
+    overflow: hidden;
+    width: 45vw;
+    margin-top: 70px;
+
+}
+.header-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+header section h1{
+    color: #F4CE14;
+    width: 200px;
+}
+.header-image img{
+    height: 400px;
+    margin-top: -50px;
+}
+.header-image{
+    position: relative;
+    top:50px;
+    left: 70px;
+    overflow: hidden;
+    background-color: #495E57;
+    height: 320px;
+    border-radius: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-top: 65px;
+}
+.main-heading{
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 30vw 15vw;
+    justify-content: center;
+}
+.main-heading button{
+    border-radius: 14px;
+    width: 120px;
+    border: none;
+    background-color: #F4CE14;
+    font-weight: 700;
+    height: 40px;
+}
+.card{
+    
+    display: grid;
+    grid-template-rows: 160px 25px;
+    align-items:start;
+    width: 200px;
+    border-radius: 16px;
+    height: 350px;
+    overflow: hidden;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #EDEFEE;
+}
+.card img{
+    width: 250px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.main-cards{
+    display: flex;
+    padding-top: 50px;
+    width: 50vw;
+
+    justify-content: space-around;
+    min-width:750px ;
+}
+.testimonials{
+    padding-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 80vw;
+   
+
+
+}
+.bookings form{
+    display: grid;
+    grid-template-columns: 100% ;
+    gap: 20px;
+    background-color: #EDEFEE;
+    width: 60vw;
+    place-items: center;
+}
+.bookings label{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.bookings input{
+    padding: 10px;
+    font-size: 20px;
+}
+.bookings{
+    display: flex;
+    justify-content: center;
+}
+.reservations{
+    margin-top: 100px;
+}
